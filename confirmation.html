@@ -7,13 +7,13 @@
   </head>
   <body>
     <div class="container">
-    <h1>Thank you for being our valued customer. We are so grateful and hope we met your expectations.</h1>
+    <h1>Thank you for being our valued customer. We are so grateful and hope we met your expectations. Your payment id is ${last_segment}</h1>
     </div>
     <script>
-      var full_url = document.URL; // Get current url
-var url_array = full_url.split('/') // Split the string into an array with / as separator
-var last_segment = url_array[url_array.length-1];  // Get the last part of the array (-1)
-alert( last_segment ); // Alert last segment
+      var full_url = document.URL; 
+var url_array = full_url.split('/') 
+var last_segment = url_array[url_array.length-1];  
+
     </script>
   </body>
 </html>
